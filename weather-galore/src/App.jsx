@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 const API_KEY = "";
-const CITIES = ["Raleigh,NC", "Providence,RI", "New+York,NY", "Seattle,WA", "Los+Angeles,CA", "Paris", "Tokyo"];
+const CITIES = ["Raleigh,NC", "Providence,RI", "New+York,NY", "Seattle,WA", "Los+Angeles,CA", "Paris", "Tokyo", "Yakima,WA"];
 
 function App() {
   const [weatherData, setWeather] = useState([]);
